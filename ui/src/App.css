@@ -1,0 +1,57 @@
+.wrap {
+  font-family: system-ui, sans-serif;
+  max-width: 650px;
+  margin: 3rem auto;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.form input,
+.form select {
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #1e4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+tr.filled {
+  background: #e6ffe6;
+}
